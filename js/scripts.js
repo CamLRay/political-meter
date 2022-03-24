@@ -5,7 +5,7 @@ $(document).ready(function() {
     const question2 = $("#question2").val();
     const question3 = $("#question3").val();
     const question4 = $("#question4").val();
-    const breakfast = $("#breakfast").val();
+    const breakfast = $("#breakfast").val().trim();
 
     $("#other, #centrist").addClass("hidden");
     
