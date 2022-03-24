@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Political Meter</title>
+</head>
+<body>
+  <div class="container">
+    <form class="survey">
+      <h2>Would you return the shopping cart?</h2>
+        <select class="form" id="question1">
+          <option></option>
+          <option>Yes</option>
+          <option>No</option>
+          <option>I carry everything in my arms</option>
+        </select>
+      <h2>There is a trolly and you control the switch. On one side is babies, the other side is puppies, which direction do you send the trolly?</h2>
+        <select class="form" id="question2">
+          <option></option>
+          <option>Babies</option>
+          <option>Puppies</option>
+        </select>
+      <h2>What color is your car?</h2>
+        <select class="form" id="question3">
+          <option></option>
+          <option>Black</option>
+          <option>White</option>
+          <option>Red</option>
+          <option value="bus">I ride the bus</option>
+        </select>
+      <h2>What do think your political affiliation is?</h2>
+        <select class="form" id="question4">
+          <option></option>
+          <option val="fLeft">Far left</option>
+          <option>Left</option>
+          <option>Centrist</option>
+          <option>Right</option>
+          <option>Far Right</option>
+        </select>
+      <h2>What did you eat for breakfast?</h2>
+        <input id="breakfast" type="text">
+      <button type="submit">Submit</button>
+    </form>
+    <p class="hidden" id="other">You are obviously a <span class="political"></span> because only a <span class="political"></span> would have <span class="food"></span> for breakfast.</p>
+    <p class="hidden" id="centrist">Wow, very bold. It nust be lonely up on that fence. Who chose <span class="food"></span> for breakfast, because I'm sure it wasn't you. I bet you use quizes to tell you your political leanings.</p>
+  </div>
+</body>
+</html>
